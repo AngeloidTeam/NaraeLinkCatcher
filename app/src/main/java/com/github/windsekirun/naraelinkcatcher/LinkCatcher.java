@@ -12,9 +12,6 @@ import java.util.List;
  * Created by WindSekirun on 2015. 10. 25..
  */
 public class LinkCatcher extends AppCompatActivity {
-
-    private static final String AUTHORITY_TWITTER_COM = "twitter.com";
-
     public NaraePreference np;
     public LinkControlListener listener;
 
@@ -25,7 +22,7 @@ public class LinkCatcher extends AppCompatActivity {
         }
         final Uri.Builder builder = data.buildUpon();
         builder.scheme("https");
-        builder.authority(AUTHORITY_TWITTER_COM);
+        builder.authority("twitter.com");
         return builder.build();
     }
 
