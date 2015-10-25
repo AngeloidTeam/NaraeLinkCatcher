@@ -1,4 +1,4 @@
-# NaraeLinkCatcher
+# NaraeLinkCatcher [![Build Status](https://travis-ci.org/AngeloidTeam/NaraeLinkCatcher.svg?branch=master)](https://travis-ci.org/AngeloidTeam/NaraeLinkCatcher)
 트위터 클라이언트에서 twitter.com 링크를 클릭시 행동을 취할 수 있도록 도와주는 라이브러리 입니다.
 
 ## 사용법
