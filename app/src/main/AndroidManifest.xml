@@ -8,7 +8,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".LinkCatcher"
+            android:name=".LinkCatcherSampleActivity"
             android:excludeFromRecents="true">
             <intent-filter>
                 <data
